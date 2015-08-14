@@ -18,7 +18,8 @@ h1 {
 #gameLink {
     text-align: center;
     border: 5px solid red;
-    font-family: ""
+    font-family: "KaiTi";
+    z-index: 0;
 }
 
 #greeting {
@@ -35,14 +36,52 @@ padding: 20px;
 
 #gameOver {
     position: absolute;
-    left: 16%;
-    top: 40%;
+    left: 22%;
+    top: 23%;
     background: #fff;
     width: 350px;
-    height: 175px;
+    height: 275px;
     border: 2px solid gray;
     border-radius: 5px;
     padding: 20px;
     display: none;
+    z-index: 1;
 }
 
+#scoreBoard {
+    text-align: left;
+    list-style-position: inside;
+    font-family: "KaiTi";
+    font-size: 15px;
+}
+
+#topScorers {
+    text-align: left;
+    list-style-position: inside;
+    font-family: "KaiTi";
+    font-size: 15px;
+}
+
+#lads {
+    color: #000000;
+    font-style: italic;
+    font-family: "KaiTi";
+    font-size: 18px;
+    /*text-align: center;*/
+}
+
+#bio {
+    color: #000000;
+    font-style: italic;
+    font-family: "KaiTi";
+    text-align: center;
+    font-size: 18px;
+}
+        menuitem
+#tops {
+ color: #000000;
+  font-style: italic;
+  font-family: "KaiTi";
+  font-size: 18px;
+/*text-align: center;*/
+}
