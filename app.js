@@ -40,6 +40,7 @@ app.get("/score", function(request, response) {
     reader.addListener('end', function(){
         response.send(scores);
     })
+
 });
 
 var bodyParser = require('body-parser');
