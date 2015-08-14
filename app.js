@@ -30,7 +30,7 @@ app.post('/score', function(request, response){
 
 app.get("/score", function(request, response) {
     var reader = csv.createCsvFileReader("scores.csv");
-    reader.setColumnNames(['name','email', 'score']);
+    reader.setColumnNames(['name', 'score']);
 
     var scores = [];
     reader.addListener('data', function(data) {
