@@ -9,7 +9,7 @@ var jumpPower = -150;
 var gapSize =80;
 var gapMargin = 50;
 var blockHeight = 50;
-var splashDisplay
+var splashDisplay;
 var stars = [];
 var starHeight = 30;
 
