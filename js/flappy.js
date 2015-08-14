@@ -14,6 +14,7 @@ var stars = [];
 var starHeight = 30;
 
 
+
 // Phaser parameters:
 // - game width
 // - game height
